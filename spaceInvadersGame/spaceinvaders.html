@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <style>
+            @import url(style.css);
+            p.highlight {
+                color: red;
+            }
+            svg {
+                background-color: rgb(41, 41, 36);
+            }
+            .bullet {
+                fill: white;
+            }
+            .alien {
+                fill: greenyellow;
+            }
+            .aliensBullets {
+                fill: orange;
+            }
+            .shield {
+                fill:rgb(0, 162, 255);
+            }
+            .gameover {
+                fill:red;
+            }
+            .gamewin {
+                fill:yellow;
+            }
+            .score {
+                fill:white;
+            }
+            .phase {
+                fill:rgb(192, 57, 163);
+            }
+            .baseLine {
+                fill:rgb(204, 173, 197);
+            }
+        </style>
+        <script src="./dist/spaceinvaders.js"></script>
+    </head>
+    <body>
+        <h1>Space Invaders</h1>
+        <div id="controls">
+            <h3>Controls:</h3>
+            <table>
+                <tr><td>Move Left</td><td><div id="ArrowLeft" class="key">&#8678;</div></td></tr>
+                <tr><td>Move Right</td><td><div id="ArrowRight" class="key">&#8680;</div></td></tr>
+                <tr><td>Stop Moving</td><td><div id="ArrowDown" class="key">&#8681;</div></td></tr>
+                <tr><td>Fire</td><td><div id="Space" class="key" style="width:50px">Space</div></td></tr>
+            </table>
+        </div>
+        <!-- Reference to Asteroid spaceShip code -->
+        <svg id="canvas" width="600" height="600">
+            <g id="ship" transform="translate(75,75)">
+                <polygon points="-10,15 10,15 0,-10"
+                            style="fill:lightblue">
+                </polygon>
+              </g>
+        </svg>
+        <h3>Phase:</h3>
+            <p>1=> </td><td>Normal Mode</p>
+            <p>2=> </td><td>Double Bullet and bullet speed increased, Enemys' bullet rate and speed increased</p>
+            <p>3=> </td><td>Triple Bullet and bullet speed increased, Enemy's bullet number, rate and speed increased</p>
+        <h3>Stage:</h3>
+            <p>1 to 5=> </td><td>Movement speed and shooting rate increased from stage to stage</p>
+    </body>
+</html>
