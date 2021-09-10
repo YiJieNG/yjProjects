@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1067660535301",
+    "firebase_url": "https://carsapp-cbd64-default-rtdb.firebaseio.com",
+    "project_id": "carsapp-cbd64",
+    "storage_bucket": "carsapp-cbd64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067660535301:android:18bb3bc977f4847336de6c",
+        "android_client_info": {
+          "package_name": "com.example.cars_appweek4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067660535301-q312plhgvs9hojomqee9sfqqdtob0pac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByzUoY8c-FpasY99djSVEby50gcAD6ybQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067660535301-q312plhgvs9hojomqee9sfqqdtob0pac.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
